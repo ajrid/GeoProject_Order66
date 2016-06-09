@@ -1,35 +1,35 @@
 KeyboardShield.d KeyboardShield.o: .././KeyboardShield.cpp \
  .././OneSheeld.h ../../ArduinoCore/Stream.h \
- f:\coa\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\inttypes.h \
- f:\coa\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\4.9.2\include\stdint.h \
- f:\coa\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\stdint.h \
+ e:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\inttypes.h \
+ e:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\4.9.2\include\stdint.h \
+ e:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\stdint.h \
  ../../ArduinoCore/Print.h \
- f:\coa\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\stdio.h \
- f:\coa\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\4.9.2\include\stdarg.h \
- f:\coa\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\4.9.2\include\stddef.h \
+ e:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\stdio.h \
+ e:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\4.9.2\include\stdarg.h \
+ e:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\4.9.2\include\stddef.h \
  ../../ArduinoCore/WString.h \
- f:\coa\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\stdlib.h \
- f:\coa\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\string.h \
- f:\coa\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\ctype.h \
- f:\coa\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\pgmspace.h \
- f:\coa\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\io.h \
- f:\coa\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\sfr_defs.h \
- F:\COA\7.0\Packs\atmel\ATmega_DFP\1.0.106\include/avr/iom328p.h \
- f:\coa\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\portpins.h \
- f:\coa\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\common.h \
- f:\coa\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\version.h \
- f:\coa\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\fuse.h \
- f:\coa\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\lock.h \
+ e:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\stdlib.h \
+ e:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\string.h \
+ e:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\ctype.h \
+ e:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\pgmspace.h \
+ e:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\io.h \
+ e:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\sfr_defs.h \
+ E:\Program\ Files\ (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.0.106\include/avr/iom328p.h \
+ e:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\portpins.h \
+ e:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\common.h \
+ e:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\version.h \
+ e:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\fuse.h \
+ e:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\lock.h \
  ../../ArduinoCore/Printable.h ../../ArduinoCore/Arduino.h \
- f:\coa\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\4.9.2\include\stdbool.h \
- f:\coa\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\math.h \
- f:\coa\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\interrupt.h \
+ e:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\4.9.2\include\stdbool.h \
+ e:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\math.h \
+ e:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\interrupt.h \
  ../../ArduinoCore/binary.h ../../ArduinoCore/WCharacter.h \
  ../../ArduinoCore/HardwareSerial.h ../../ArduinoCore/Stream.h \
  ../../ArduinoCore/USBAPI.h \
- f:\coa\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\eeprom.h \
- f:\coa\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\util\delay.h \
- f:\coa\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\util\delay_basic.h \
+ e:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\eeprom.h \
+ e:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\util\delay.h \
+ e:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\util\delay_basic.h \
  ../../ArduinoCore/Arduino.h ../../ArduinoCore/pins_arduino.h \
  .././ShieldsIds.h .././ShieldsSelection.h .././ShieldsIncludes.h \
  .././TwitterShield.h .././ShieldParent.h .././FacebookShield.h \
@@ -60,55 +60,55 @@ KeyboardShield.d KeyboardShield.o: .././KeyboardShield.cpp \
 
 ../../ArduinoCore/Stream.h:
 
-f:\coa\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\inttypes.h:
+e:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\inttypes.h:
 
-f:\coa\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\4.9.2\include\stdint.h:
+e:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\4.9.2\include\stdint.h:
 
-f:\coa\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\stdint.h:
+e:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\stdint.h:
 
 ../../ArduinoCore/Print.h:
 
-f:\coa\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\stdio.h:
+e:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\stdio.h:
 
-f:\coa\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\4.9.2\include\stdarg.h:
+e:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\4.9.2\include\stdarg.h:
 
-f:\coa\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\4.9.2\include\stddef.h:
+e:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\4.9.2\include\stddef.h:
 
 ../../ArduinoCore/WString.h:
 
-f:\coa\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\stdlib.h:
+e:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\stdlib.h:
 
-f:\coa\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\string.h:
+e:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\string.h:
 
-f:\coa\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\ctype.h:
+e:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\ctype.h:
 
-f:\coa\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\pgmspace.h:
+e:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\pgmspace.h:
 
-f:\coa\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\io.h:
+e:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\io.h:
 
-f:\coa\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\sfr_defs.h:
+e:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\sfr_defs.h:
 
-F:\COA\7.0\Packs\atmel\ATmega_DFP\1.0.106\include/avr/iom328p.h:
+E:\Program\ Files\ (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.0.106\include/avr/iom328p.h:
 
-f:\coa\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\portpins.h:
+e:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\portpins.h:
 
-f:\coa\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\common.h:
+e:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\common.h:
 
-f:\coa\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\version.h:
+e:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\version.h:
 
-f:\coa\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\fuse.h:
+e:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\fuse.h:
 
-f:\coa\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\lock.h:
+e:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\lock.h:
 
 ../../ArduinoCore/Printable.h:
 
 ../../ArduinoCore/Arduino.h:
 
-f:\coa\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\4.9.2\include\stdbool.h:
+e:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\4.9.2\include\stdbool.h:
 
-f:\coa\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\math.h:
+e:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\math.h:
 
-f:\coa\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\interrupt.h:
+e:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\interrupt.h:
 
 ../../ArduinoCore/binary.h:
 
@@ -120,11 +120,11 @@ f:\coa\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\interrupt.h:
 
 ../../ArduinoCore/USBAPI.h:
 
-f:\coa\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\eeprom.h:
+e:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\eeprom.h:
 
-f:\coa\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\util\delay.h:
+e:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\util\delay.h:
 
-f:\coa\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\util\delay_basic.h:
+e:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\util\delay_basic.h:
 
 ../../ArduinoCore/Arduino.h:
 

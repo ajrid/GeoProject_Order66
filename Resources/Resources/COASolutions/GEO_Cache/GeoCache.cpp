@@ -62,7 +62,6 @@ A               // Mode A=Autonomous D=differential E=Estimated
 // Required
 #include "Arduino.h"
 
-
 /*
 Configuration settings.
 
