@@ -9,6 +9,8 @@ Project("{E66E83B9-2572-4076-B26E-6BE79FF3018A}") = "NeoPixelTest", "NeoPixelTes
 EndProject
 Project("{E66E83B9-2572-4076-B26E-6BE79FF3018A}") = "NeoPixel", "NeoPixel\NeoPixel.cppproj", "{16068E77-23A6-4315-A35F-D71097CA8EE5}"
 EndProject
+Project("{E66E83B9-2572-4076-B26E-6BE79FF3018A}") = "Geocache", "Geocache\Geocache.cppproj", "{54092C41-EEF9-49F0-9846-5A14F90BDF34}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|AVR = Debug|AVR
@@ -27,6 +29,10 @@ Global
 		{16068E77-23A6-4315-A35F-D71097CA8EE5}.Debug|AVR.Build.0 = Debug|AVR
 		{16068E77-23A6-4315-A35F-D71097CA8EE5}.Release|AVR.ActiveCfg = Release|AVR
 		{16068E77-23A6-4315-A35F-D71097CA8EE5}.Release|AVR.Build.0 = Release|AVR
+		{54092C41-EEF9-49F0-9846-5A14F90BDF34}.Debug|AVR.ActiveCfg = Debug|AVR
+		{54092C41-EEF9-49F0-9846-5A14F90BDF34}.Debug|AVR.Build.0 = Debug|AVR
+		{54092C41-EEF9-49F0-9846-5A14F90BDF34}.Release|AVR.ActiveCfg = Release|AVR
+		{54092C41-EEF9-49F0-9846-5A14F90BDF34}.Release|AVR.Build.0 = Release|AVR
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

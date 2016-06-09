@@ -19,7 +19,7 @@ int main(void)
 {
 init();
 strip.begin();
-strip.setBrightness(24);
+strip.setBrightness(25);
 strip.show();
     /* Replace with your application code */
     while (true) 
