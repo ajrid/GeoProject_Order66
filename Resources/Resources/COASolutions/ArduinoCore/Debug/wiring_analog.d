@@ -4,10 +4,10 @@ wiring_analog.d wiring_analog.o: .././wiring_analog.c \
  ../include/avr/portpins.h ../include/avr/common.h \
  ../include/avr/version.h ../include/avr/fuse.h ../include/avr/lock.h \
  ../include/avr/interrupt.h ../include/stdio.h \
- f:\coa\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\4.9.2\include\stdarg.h \
- f:\coa\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\4.9.2\include\stddef.h \
+ d:\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\4.9.2\include\stdarg.h \
+ d:\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\4.9.2\include\stddef.h \
  .././Arduino.h ../include/stdlib.h \
- f:\coa\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\4.9.2\include\stdbool.h \
+ d:\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\4.9.2\include\stdbool.h \
  ../include/string.h ../include/math.h ../include/avr/pgmspace.h \
  .././binary.h .././pins_arduino.h
 
@@ -37,15 +37,15 @@ wiring_analog.d wiring_analog.o: .././wiring_analog.c \
 
 ../include/stdio.h:
 
-f:\coa\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\4.9.2\include\stdarg.h:
+d:\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\4.9.2\include\stdarg.h:
 
-f:\coa\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\4.9.2\include\stddef.h:
+d:\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\4.9.2\include\stddef.h:
 
 .././Arduino.h:
 
 ../include/stdlib.h:
 
-f:\coa\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\4.9.2\include\stdbool.h:
+d:\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\4.9.2\include\stdbool.h:
 
 ../include/string.h:
 

@@ -1,9 +1,9 @@
 Print.d Print.o: .././Print.cpp ../include/stdlib.h \
- f:\coa\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\4.9.2\include\stddef.h \
+ d:\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\4.9.2\include\stddef.h \
  ../include/stdio.h ../include/inttypes.h ../include/stdint.h \
- f:\coa\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\4.9.2\include\stdarg.h \
+ d:\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\4.9.2\include\stdarg.h \
  ../include/string.h ../include/math.h .././Arduino.h \
- f:\coa\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\4.9.2\include\stdbool.h \
+ d:\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\4.9.2\include\stdbool.h \
  ../include/avr/pgmspace.h ../include/avr/io.h ../include/avr/sfr_defs.h \
  ../include/avr/iom328p.h ../include/avr/portpins.h \
  ../include/avr/common.h ../include/avr/version.h ../include/avr/fuse.h \
@@ -15,7 +15,7 @@ Print.d Print.o: .././Print.cpp ../include/stdlib.h \
 
 ../include/stdlib.h:
 
-f:\coa\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\4.9.2\include\stddef.h:
+d:\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\4.9.2\include\stddef.h:
 
 ../include/stdio.h:
 
@@ -23,7 +23,7 @@ f:\coa\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\4.9.2\include\stddef.h:
 
 ../include/stdint.h:
 
-f:\coa\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\4.9.2\include\stdarg.h:
+d:\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\4.9.2\include\stdarg.h:
 
 ../include/string.h:
 
@@ -31,7 +31,7 @@ f:\coa\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\4.9.2\include\stdarg.h:
 
 .././Arduino.h:
 
-f:\coa\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\4.9.2\include\stdbool.h:
+d:\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\4.9.2\include\stdbool.h:
 
 ../include/avr/pgmspace.h:
 
