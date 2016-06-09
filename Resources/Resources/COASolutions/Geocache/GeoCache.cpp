@@ -61,7 +61,7 @@ A               // Mode A=Autonomous D=differential E=Estimated
 
 // Required
 #include "Arduino.h"
-
+#include <math.h>
 
 /*
 Configuration settings.
@@ -261,6 +261,12 @@ void getGPSMessage(void)
 }
 
 #endif	// GPS_ON
+
+/* Math functions -Mike Siegfried*/
+
+
+
+
 
 /*
 Main Program Entry
