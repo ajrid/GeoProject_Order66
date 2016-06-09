@@ -1,10 +1,10 @@
 HardwareSerial.d HardwareSerial.o: .././HardwareSerial.cpp \
  ../include/stdlib.h \
- d:\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\4.9.2\include\stddef.h \
+ e:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\4.9.2\include\stddef.h \
  ../include/stdio.h ../include/inttypes.h ../include/stdint.h \
- d:\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\4.9.2\include\stdarg.h \
+ e:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\4.9.2\include\stdarg.h \
  ../include/string.h .././Arduino.h \
- d:\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\4.9.2\include\stdbool.h \
+ e:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\4.9.2\include\stdbool.h \
  ../include/math.h ../include/avr/pgmspace.h ../include/avr/io.h \
  ../include/avr/sfr_defs.h ../include/avr/iom328p.h \
  ../include/avr/portpins.h ../include/avr/common.h \
@@ -17,7 +17,7 @@ HardwareSerial.d HardwareSerial.o: .././HardwareSerial.cpp \
 
 ../include/stdlib.h:
 
-d:\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\4.9.2\include\stddef.h:
+e:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\4.9.2\include\stddef.h:
 
 ../include/stdio.h:
 
@@ -25,13 +25,13 @@ d:\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\4.9.2\include\
 
 ../include/stdint.h:
 
-d:\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\4.9.2\include\stdarg.h:
+e:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\4.9.2\include\stdarg.h:
 
 ../include/string.h:
 
 .././Arduino.h:
 
-d:\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\4.9.2\include\stdbool.h:
+e:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\4.9.2\include\stdbool.h:
 
 ../include/math.h:
 

@@ -8,10 +8,10 @@ your project however you wish.
 
 List Team Members Here:
 
-	1.
-	2.
-	3.
-	4.
+	1. Aaron Ridlen
+	2. Ryan Vafiadis
+	3. Tom Yale
+	4. Mike Siegfried
 	
 NOTES: 
 
