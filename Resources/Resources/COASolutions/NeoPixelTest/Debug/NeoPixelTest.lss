@@ -19,15 +19,15 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING
   7 .debug_abbrev 000004f9  00000000  00000000  00003063  2**0
                   CONTENTS, READONLY, DEBUGGING
-  8 .debug_line   000008b0  00000000  00000000  0000355c  2**0
+  8 .debug_line   000008d8  00000000  00000000  0000355c  2**0
                   CONTENTS, READONLY, DEBUGGING
-  9 .debug_frame  000003a4  00000000  00000000  00003e0c  2**2
+  9 .debug_frame  000003a4  00000000  00000000  00003e34  2**2
                   CONTENTS, READONLY, DEBUGGING
- 10 .debug_str    00000779  00000000  00000000  000041b0  2**0
+ 10 .debug_str    00000761  00000000  00000000  000041d8  2**0
                   CONTENTS, READONLY, DEBUGGING
- 11 .debug_loc    00000b65  00000000  00000000  00004929  2**0
+ 11 .debug_loc    00000b65  00000000  00000000  00004939  2**0
                   CONTENTS, READONLY, DEBUGGING
- 12 .debug_ranges 000001c0  00000000  00000000  0000548e  2**0
+ 12 .debug_ranges 000001c0  00000000  00000000  0000549e  2**0
                   CONTENTS, READONLY, DEBUGGING
 
 Disassembly of section .text:
@@ -906,8 +906,8 @@ strip.begin();
      4bc:	86 e0       	ldi	r24, 0x06	; 6
      4be:	91 e0       	ldi	r25, 0x01	; 1
      4c0:	0e 94 75 05 	call	0xaea	; 0xaea <_ZN17Adafruit_NeoPixel5beginEv>
-strip.setBrightness(24);
-     4c4:	68 e1       	ldi	r22, 0x18	; 24
+strip.setBrightness(25);
+     4c4:	69 e1       	ldi	r22, 0x19	; 25
      4c6:	86 e0       	ldi	r24, 0x06	; 6
      4c8:	91 e0       	ldi	r25, 0x01	; 1
      4ca:	0e 94 be 07 	call	0xf7c	; 0xf7c <_ZN17Adafruit_NeoPixel13setBrightnessEh>
