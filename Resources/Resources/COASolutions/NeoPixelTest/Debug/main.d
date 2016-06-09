@@ -1,5 +1,4 @@
-NeoPixel.d NeoPixel.o: .././NeoPixel.cpp .././NeoPixel.h \
- ../../ArduinoCore/Arduino.h \
+main.d main.o: .././main.cpp ../../ArduinoCore/Arduino.h \
  f:\coa\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\stdlib.h \
  f:\coa\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\4.9.2\include\stddef.h \
  f:\coa\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\4.9.2\include\stdbool.h \
@@ -28,9 +27,8 @@ NeoPixel.d NeoPixel.o: .././NeoPixel.cpp .././NeoPixel.h \
  f:\coa\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\eeprom.h \
  f:\coa\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\util\delay.h \
  f:\coa\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\util\delay_basic.h \
- ../../ArduinoCore/Arduino.h ../../ArduinoCore/pins_arduino.h
-
-.././NeoPixel.h:
+ ../../ArduinoCore/Arduino.h ../../ArduinoCore/pins_arduino.h \
+ ../../NeoPixel/NeoPixel.h
 
 ../../ArduinoCore/Arduino.h:
 
@@ -101,3 +99,5 @@ f:\coa\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\util\delay_basic.h:
 ../../ArduinoCore/Arduino.h:
 
 ../../ArduinoCore/pins_arduino.h:
+
+../../NeoPixel/NeoPixel.h:
