@@ -15,6 +15,12 @@ EndProject
 Project("{E66E83B9-2572-4076-B26E-6BE79FF3018A}") = "Geocache", "Geocache\Geocache.cppproj", "{54092C41-EEF9-49F0-9846-5A14F90BDF34}"
 >>>>>>> 7045b4b13efb3fad0a71a914b29bf6fd7b860f4c
 EndProject
+Project("{E66E83B9-2572-4076-B26E-6BE79FF3018A}") = "SoftwareSerial", "SoftwareSerial\SoftwareSerial.cppproj", "{01562194-0645-47C4-BF54-F6C462481760}"
+EndProject
+Project("{E66E83B9-2572-4076-B26E-6BE79FF3018A}") = "SecureDigital", "SecureDigital\SecureDigital.cppproj", "{9A914A2A-D2BC-4B67-84A1-397A4491F6F0}"
+EndProject
+Project("{E66E83B9-2572-4076-B26E-6BE79FF3018A}") = "OneSheeld", "OneSheeld\OneSheeld.cppproj", "{4C911888-7DC7-432D-99F4-EADED8543758}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|AVR = Debug|AVR
@@ -43,7 +49,22 @@ Global
 		{54092C41-EEF9-49F0-9846-5A14F90BDF34}.Debug|AVR.Build.0 = Debug|AVR
 		{54092C41-EEF9-49F0-9846-5A14F90BDF34}.Release|AVR.ActiveCfg = Release|AVR
 		{54092C41-EEF9-49F0-9846-5A14F90BDF34}.Release|AVR.Build.0 = Release|AVR
+<<<<<<< HEAD
 >>>>>>> 7045b4b13efb3fad0a71a914b29bf6fd7b860f4c
+=======
+		{01562194-0645-47C4-BF54-F6C462481760}.Debug|AVR.ActiveCfg = Debug|AVR
+		{01562194-0645-47C4-BF54-F6C462481760}.Debug|AVR.Build.0 = Debug|AVR
+		{01562194-0645-47C4-BF54-F6C462481760}.Release|AVR.ActiveCfg = Release|AVR
+		{01562194-0645-47C4-BF54-F6C462481760}.Release|AVR.Build.0 = Release|AVR
+		{9A914A2A-D2BC-4B67-84A1-397A4491F6F0}.Debug|AVR.ActiveCfg = Debug|AVR
+		{9A914A2A-D2BC-4B67-84A1-397A4491F6F0}.Debug|AVR.Build.0 = Debug|AVR
+		{9A914A2A-D2BC-4B67-84A1-397A4491F6F0}.Release|AVR.ActiveCfg = Release|AVR
+		{9A914A2A-D2BC-4B67-84A1-397A4491F6F0}.Release|AVR.Build.0 = Release|AVR
+		{4C911888-7DC7-432D-99F4-EADED8543758}.Debug|AVR.ActiveCfg = Debug|AVR
+		{4C911888-7DC7-432D-99F4-EADED8543758}.Debug|AVR.Build.0 = Debug|AVR
+		{4C911888-7DC7-432D-99F4-EADED8543758}.Release|AVR.ActiveCfg = Release|AVR
+		{4C911888-7DC7-432D-99F4-EADED8543758}.Release|AVR.Build.0 = Release|AVR
+>>>>>>> 26116fc464b5a77909fde7671ab5b14d1aec1f4e
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
