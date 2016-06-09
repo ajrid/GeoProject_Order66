@@ -1,5 +1,4 @@
-NeoPixel.d NeoPixel.o: .././NeoPixel.cpp .././NeoPixel.h \
- ../../ArduinoCore/Arduino.h \
+main.d main.o: .././main.cpp ../../ArduinoCore/Arduino.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\stdlib.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\4.9.2\include\stddef.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\4.9.2\include\stdbool.h \
@@ -28,9 +27,8 @@ NeoPixel.d NeoPixel.o: .././NeoPixel.cpp .././NeoPixel.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\eeprom.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\util\delay.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\util\delay_basic.h \
- ../../ArduinoCore/Arduino.h ../../ArduinoCore/pins_arduino.h
-
-.././NeoPixel.h:
+ ../../ArduinoCore/Arduino.h ../../ArduinoCore/pins_arduino.h \
+ ../../NeoPixel/NeoPixel.h
 
 ../../ArduinoCore/Arduino.h:
 
@@ -101,3 +99,5 @@ c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\
 ../../ArduinoCore/Arduino.h:
 
 ../../ArduinoCore/pins_arduino.h:
+
+../../NeoPixel/NeoPixel.h:
