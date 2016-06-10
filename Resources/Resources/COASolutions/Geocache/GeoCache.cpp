@@ -62,7 +62,6 @@ A               // Mode A=Autonomous D=differential E=Estimated
 // Required
 #include "Arduino.h"
 #include <math.h>
-
 /*
 Configuration settings.
 
@@ -264,6 +263,86 @@ void getGPSMessage(void)
 
 /* Math functions -Mike Siegfried*/
 
+//Variables needed for calculations. (Global)
+
+float lat1 = 0.0f, long1 = 0.0f;
+float decimalDegrees = 0.0f;
+/*
+Convert degrees to radians
+
+Parameters:
+	degrees1: degrees
+	
+Return:
+	radians
+*/
+float degreesToRadians(float degrees1)
+{
+	degrees1 = (degrees1 * PI) / 180;
+	//while (degrees1 > 360 || degrees1 < 0)
+	//{
+		//if (degrees1 > 360)
+		//{
+			//degrees1 - 360;
+		//}
+		//else if (degrees1 < 0)
+		//{
+			//degrees1 + 360;
+		//}
+	//}
+	return degrees1;
+}
+
+//void calcCoordinate(GEOLAT0, GEOLON0, &lat1, &long1, &bearing, &distance)
+//{
+	//return;
+//}
+
+/*
+Convert Degree Minutes (DDMM.SSSS) to Degrees (DD.DDDD)
+
+Parameters:
+	 deg: int containing the degrees
+	 min: int containing the minutes
+	 sec: int containing the seconds
+	
+Return:
+	Degrees
+*/
+float degreeMinutesToDegrees(int deg, int min, int sec)
+{
+	decimalDegrees = deg + (min/60.0) + (sec/3600.0);
+	return decimalDegrees;
+}
+
+///*
+//Convert Degrees to Degree-Minute-Seconds
+//
+//Parameters:
+	//_deg: float containing the six decimal degrees
+	//
+//Return:
+	//Degree-Minute-Seconds
+//*/
+//float degreesToDegreeMinutes(float _deg)
+//{
+	//float degreeMinutes;
+	//int deg, min, sec;
+	//
+	//return degreeMinutes;
+//}
+
+float calculateDistance(float &decimalDegrees)
+{
+	float distance = 0.0f;
+	return distance;
+}
+
+float calculateBearing(float &decimalDegrees)
+{
+	float bearing = 0.0f;
+	return bearing;
+}
 
 
 
