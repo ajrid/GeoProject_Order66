@@ -30,7 +30,6 @@ GPS Shield must be set to the "Soft Serial" position, else you will not receive
 any GPS messages.
 
 *******************************************************************************
-
 Following is the GPS Shield "GPRMC" Message Structure.  This message is received
 once a second.  You must parse the message to obtain the parameters required for
 the GeoCache project.  GPS provides coordinates in Degrees Minutes (DDDMM.MMMM).
@@ -59,9 +58,15 @@ A               // Mode A=Autonomous D=differential E=Estimated
 
 ******************************************************************************/
 
+//RYAN NOTE - This code uses an enum for the parsing_strings array to identify which message is in the index.
+enum PARSING_DEFINITIONS
+{
+    GPRMC_MESSAGE, UTC_TIME, DATA_STATUS, LATITUDE, NS_INDICATOR, LONGITUDE, EW_INDICATOR, SPEED_OVER_GROUND, COURSE_OVER_GROUND, DATE, MAGENTIC_VARIATION, EAST_OR_WEST, MODE_SELECTED, CHECKSUM
+};
+#define PARSING_NUM 14
+
 // Required
 #include "Arduino.h"
-
 
 /*
 Configuration settings.
@@ -170,6 +175,7 @@ Return:
 	none
 	
 */
+
 void getGPSMessage(void)
 {
 	uint8_t x=0, y=0, isum=0;
@@ -323,12 +329,38 @@ int main(void)
 		// if GPRMC message (3rd letter = R)
 		while (cstr[3] == 'R')
 		{
+            //PARSING CODE WRITTEN BY RYAN
+            //parsing_strings contains the resulting parsed messages returned from the GPS. See enum notes at top for more details.
+            String parsing_strings[PARSING_NUM];           
+            int crst_index = 0;              
 			// parse message parameters
-			
+			for(int i = 0; i < PARSING_NUM; ++i)
+            {    
+                if(cstr[crst_index] == '/r')
+                {
+                    break;
+                }    
+                int sub_parsing_index = 0;        
+                while(true)
+                {               
+                    if(cstr[crst_index] == ',')
+                    {               
+                        crst_index++;
+                        break;
+                    }
+                    //May need to change this in the future.
+                    parsing_strings[i].reserve(parsing_strings[i].length + 1);
+                    parsing_strings[i].setCharAt(sub_parsing_index,cstr[crst_index]);
+                    sub_parsing_index++;
+                    crst_index++;                   
+                }
+            }          
+                  
 			// calculated destination heading
-			
+
 			// calculated destination distance
-			
+
+            
 			#if SDC_ON
 			// write current position to SecureDigital then flush
 			#endif

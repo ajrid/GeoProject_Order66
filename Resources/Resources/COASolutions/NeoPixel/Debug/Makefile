@@ -67,8 +67,8 @@ ADDITIONAL_DEPENDENCIES:=
 OUTPUT_FILE_DEP:= ./makedep.mk
 
 LIB_DEP+=  \
-E:/Xzecutus/Desktop/GeoProject_Order66/Resources/Resources/COASolutions/ArduinoCore/Debug/libArduinoCore.a \
-E:/Xzecutus/Desktop/GeoProject_Order66/Resources/Resources/COASolutions/SoftwareSerial/Debug/libSoftwareSerial.a
+D:/Records/Full\ Sail\ Documents/COA/GeoProject_Order66/Resources/Resources/COASolutions/ArduinoCore/Debug/libArduinoCore.a \
+D:/Records/Full\ Sail\ Documents/COA/GeoProject_Order66/Resources/Resources/COASolutions/SoftwareSerial/Debug/libSoftwareSerial.a
 
 LINKER_SCRIPT_DEP+= 
 
@@ -80,7 +80,7 @@ LINKER_SCRIPT_DEP+=
 ./%.o: .././%.cpp
 	@echo Building file: $<
 	@echo Invoking: AVR8/GNU C Compiler : 4.9.2
-	$(QUOTE)E:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-g++.exe$(QUOTE) -funsigned-char -funsigned-bitfields -DARDUINO=156 -DF_CPU=16000000L -DDEBUG  -I"../../ArduinoCore" -I".." -I"E:\Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.0.98\include"  -O0 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega328p -B "E:\Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.0.98\gcc\dev\atmega328p" -c -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
+	$(QUOTE)D:\Atmel\Studio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-g++.exe$(QUOTE) -funsigned-char -funsigned-bitfields -DARDUINO=156 -DF_CPU=16000000L -DDEBUG  -I"../../ArduinoCore" -I".." -I"D:\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.0.98\include"  -O0 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega328p -B "D:\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.0.98\gcc\dev\atmega328p" -c -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
 	@echo Finished building: $<
 	
 
@@ -110,7 +110,7 @@ all: $(OUTPUT_FILE_PATH) $(ADDITIONAL_DEPENDENCIES)
 $(OUTPUT_FILE_PATH): $(OBJS) $(USER_OBJS) $(OUTPUT_FILE_DEP)
 	@echo Building target: $@
 	@echo Invoking: AVR8/GNU Archiver : 4.9.2
-	$(QUOTE)E:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-ar.exe$(QUOTE) -r  -o$(OUTPUT_FILE_PATH_AS_ARGS) $(OBJS_AS_ARGS) $(USER_OBJS) $(LIBS) 
+	$(QUOTE)D:\Atmel\Studio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-ar.exe$(QUOTE) -r  -o$(OUTPUT_FILE_PATH_AS_ARGS) $(OBJS_AS_ARGS) $(USER_OBJS) $(LIBS) 
 	@echo Finished building target: $@
 	
 	
