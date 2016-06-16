@@ -50,7 +50,7 @@ Return:
 float degMin2DecDeg(char *cind, char *ccor);
 
 /************************************************** 
-Calculate Great Circle Distance between to coordinates using
+Calculate Great Circle Distance between two coordinates using
 Haversine formula.
 
 float getDistance(float flat1, float flon1, float flat2, float flon2)
